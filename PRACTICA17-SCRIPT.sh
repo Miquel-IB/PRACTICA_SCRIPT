@@ -23,4 +23,3 @@ Vagrant.configure("2") do |config|
 #Hacemos la red privada y que nos asigne una IP aleatoria
     config.vm.network "private_network", type: "dhcp"
 end
-
